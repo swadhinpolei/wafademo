@@ -1,0 +1,60 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "dataanshfactory"
+		},
+		"ls_datalake_accountKey": {
+			"value": ""
+		},
+		"ls_gold_raw_accountKey": {
+			"value": ""
+		},
+		"ls_onprem_file_password": {
+			"value": ""
+		},
+		"ls_sqldb_password": {
+			"value": ""
+		},
+		"ls_GITAPI_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/"
+		},
+		"ls_datalake_properties_typeProperties_url": {
+			"value": "https://anshadfstorage.dfs.core.windows.net/"
+		},
+		"ls_gold_raw_properties_typeProperties_url": {
+			"value": "https://anshadfstorage.dfs.core.windows.net/"
+		},
+		"ls_onprem_file_properties_typeProperties_host": {
+			"value": "D:\\AnshLambaFiles"
+		},
+		"ls_onprem_file_properties_typeProperties_userId": {
+			"value": "swadhinpolai444@gmail.com"
+		},
+		"ls_param_sqldata_properties_typeProperties_server": {
+			"value": "@{linkedService().servername}"
+		},
+		"ls_param_sqldata_properties_typeProperties_database": {
+			"value": "@{linkedService().Databasename}"
+		},
+		"ls_param_sqldata_properties_typeProperties_userName": {
+			"value": "@{linkedService().Usrname}"
+		},
+		"ls_sqldb_properties_typeProperties_server": {
+			"value": "adfprojectansh.database.windows.net"
+		},
+		"ls_sqldb_properties_typeProperties_database": {
+			"value": "adfprojectDB"
+		},
+		"ls_sqldb_properties_typeProperties_userName": {
+			"value": "admingiet"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
