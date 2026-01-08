@@ -1,0 +1,31 @@
+{
+	"name": "ls_param_sqldata",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"parameters": {
+			"servername": {
+				"type": "string"
+			},
+			"Databasename": {
+				"type": "string"
+			},
+			"Usrname": {
+				"type": "string"
+			},
+			"passwd": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "@{linkedService().servername}",
+			"database": "@{linkedService().Databasename}",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "@{linkedService().Usrname}",
+			"password": "@{linkedService().passwd}"
+		}
+	}
+}

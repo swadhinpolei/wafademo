@@ -1,0 +1,17 @@
+{
+	"name": "ls_onprem_file",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "D:\\AnshLambaFiles",
+			"userId": "swadhinpolai444@gmail.com",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI2MTc0YTI2MS00ZGNjLTQ5ZDMtOTZmNS00OTRhY2I3NmM3ZjAiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "Ansh-selfhosted",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

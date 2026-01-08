@@ -1,0 +1,9 @@
+{
+	"name": "dataanshfactory",
+	"location": "canadacentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f2a1fb2b-7bd1-4277-a7b7-36eea791cb0a",
+		"tenantId": "0151d51d-ab27-4e48-86ce-231379e3e1dc"
+	}
+}
